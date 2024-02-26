@@ -37,7 +37,6 @@ public class StudentLogin extends javax.swing.JFrame {
         jPasswordField1 = new javax.swing.JPasswordField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1105, 786));
 
         jPanel1.setBackground(new java.awt.Color(217, 217, 217));
         jPanel1.setPreferredSize(new java.awt.Dimension(1105, 786));
@@ -49,6 +48,7 @@ public class StudentLogin extends javax.swing.JFrame {
         jButton2.setFont(new java.awt.Font("Yu Gothic UI", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(217, 217, 217));
         jButton2.setText("<-  Back");
+        jButton2.setBorder(null);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -62,14 +62,14 @@ public class StudentLogin extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(35, 35, 35)
                 .addComponent(jButton2)
-                .addContainerGap(240, Short.MAX_VALUE))
+                .addContainerGap(270, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(35, 35, 35)
                 .addComponent(jButton2)
-                .addContainerGap(719, Short.MAX_VALUE))
+                .addContainerGap(726, Short.MAX_VALUE))
         );
 
         jLabel1.setBackground(new java.awt.Color(217, 217, 217));
